@@ -1,0 +1,14 @@
+<!DOCTYPE dwr PUBLIC
+    "-//GetAhead Limited//DTD Direct Web Remoting 3.0//EN"
+    "http://getahead.org/dwr/dwr30.dtd">
+
+<dwr>
+  <allow>
+    <create creator="new" javascript="Member">
+      <param name="class" value="net.daum.smooth.dwr.DWRMemberService"/>
+      <include method="getA"/>
+      <include method="getB"/>
+      <include method="shout"/>
+    </create>
+  </allow>
+</dwr>
